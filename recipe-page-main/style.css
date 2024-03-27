@@ -1,0 +1,109 @@
+*{
+    font-family: 'calibri','century','grotesk';
+}
+
+body{
+    background-color: papayawhip;
+}
+
+
+.image{
+    text-align: center;
+    padding-top: 10px;
+}
+
+section{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 10px 15px black;
+}
+
+p, li{
+    font-size: 20px;
+    padding-bottom: 8px;
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: justify;
+}
+#hora li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+#cabecalho{
+    width: 700px;
+    margin: auto;
+}
+
+#cabecalho h1{
+    text-align: center;
+    font-size: 35px;
+    color: hsl(24, 5%, 18%);
+}
+
+#hora{
+    width: 700px;
+    margin: auto;
+    background-color: hsl(330, 100%, 98%);
+}
+#hora h4{
+    color: hsl(332, 51%, 32%);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#hora b{
+    color: hsl(30, 10%, 34%);
+}
+
+#ingri{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#ingri li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+h2{
+    font-size: 38px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+section hr{
+    width: 700px;
+}
+#prep{
+    width: 700px;
+    margin: auto;
+}
+
+#prep b{
+    color: hsl(36, 9%, 21%);
+}
+#prep li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#nutri{
+    width: 700px;
+    margin: auto;
+}
+#nutri table{
+    width: 700px;
+}
+#nutri td{
+    font-size: 18px;
+    height: 50px;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    padding-left: 30px;
+}
+#nutri td b{
+    color: hsl(14, 45%, 36%);
+}
